@@ -1,0 +1,17 @@
+<div class="mt-4">
+    <h1 class="text-3xl font-bold float-left w-1/2 h-10">Our Cards</h1>
+    <div>
+        <input type="text" class="w-1/2 h-10 border-2 border-gray-300 float-right" [(ngModel)]="searchCard"  (keyup)="$event.target" placeholder="Search for a card" />
+    </div>
+    <div class="grid grid-cols-3 gap-1 w-full pt-5">
+        <div class="m-14" *ngFor="let card of cardData | search:searchCard">
+            <app-card [card]="card"></app-card>
+            <div>
+                <p class="text-2xl float-left">Quantity : <span>{{card.quantity}}</span></p>
+                <p class="float-right">
+                   <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" (click)="addItem(card)">Add to Cart</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

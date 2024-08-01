@@ -1,0 +1,16 @@
+[
+        {"id": 1, "name": "Google", "price": 50, "description": "Google Gift Card", "image": "assets/images/google.png", "quantity": 150},
+        {"id": 2, "name": "Apple", "price": 50, "description": "Apple Gift Card", "image": "assets/images/apple.png", "quantity": 150},
+        {"id": 3, "name": "Amazon", "price": 50, "description": "Amazon Gift Card", "image": "assets/images/amazon.png", "quantity": 150},
+        {"id": 4, "name": "Google", "price": 50, "description": "Google Gift Card", "image": "assets/images/google.png", "quantity": 150},
+        {"id": 5, "name": "Apple", "price": 50, "description": "Apple Gift Card", "image": "assets/images/apple.png", "quantity": 150},
+        {"id": 6, "name": "Amazon", "price": 50, "description": "Amazon Gift Card", "image": "assets/images/amazon.png", "quantity": 150},
+        {"id": 7, "name": "Google", "price": 50, "description": "Google Gift Card", "image": "assets/images/google.png", "quantity": 150},
+        {"id": 8, "name": "Apple", "price": 50, "description": "Apple Gift Card", "image": "assets/images/apple.png", "quantity": 150},
+        {"id": 9, "name": "Amazon", "price": 50, "description": "Amazon Gift Card", "image": "assets/images/amazon.png", "quantity": 150},
+        {"id": 10, "name": "Google", "price": 50, "description": "Google Gift Card", "image": "assets/images/google.png", "quantity": 150},
+        {"id": 11, "name": "Apple", "price": 50, "description": "Apple Gift Card", "image": "assets/images/apple.png", "quantity": 150},
+        {"id": 12, "name": "Amazon", "price": 50, "description": "Amazon Gift Card", "image": "assets/images/amazon.png", "quantity": 150}
+]
+
+
